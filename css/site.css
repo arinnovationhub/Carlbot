@@ -1,4 +1,6 @@
-
+---
+title: CSS stylesheet
+---
  #bg {
  	content:"";
   top: 0;
@@ -7,7 +9,7 @@
   right: 0;
   position: absolute;
   z-index: -1;
-  background: url("/assets/images/jumbotron.jpg") no-repeat center center; 
+  background: url("{{site.baseurl}}/assets/images/jumbotron.jpg") no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
