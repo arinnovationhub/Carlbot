@@ -13,18 +13,20 @@
 </head>
 <body>
 
-	<div class="navbar navbar-fixed-top" id="header">
-		<div class="container">
-			<h4 class="navbar-brand">
-				<a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a><br>
-				{% if site.subtitle %}<small>{{ site.subtitle }}</small>{% endif %}
-			</h4>
-		</div>
-
+	<nav class="navbar navbar-inverse" id="header">
 		<div class="container-fluid">
-			<div id="content">
-				{{ content }}
+			<div class="navbar-header">
+				<h4 class="navbar-brand">
+					<a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a><br>
+					{% if site.subtitle %}<small>{{ site.subtitle }}</small>{% endif %}
+				</h4>
 			</div>
 		</div>
-	</body>
+	</nav>
+
+	{{ content }}
+
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</body>
 </htm>

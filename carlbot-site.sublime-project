@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	    "settings":
+    {
+        "tab_size": 2,
+        "Jekyll":
+        {
+            "posts_path": "c:\\users\\kyle\\documents\\github\\carlbot\\_posts",
+            "drafts_path": "c:\\users\\kyle\\documents\\github\\carlbot\\_drafts",
+        }
+    },
+}
