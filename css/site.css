@@ -9,32 +9,42 @@ title: CSS stylesheet
   right: 0;
   position: absolute;
   z-index: -1;
-  background: url("{{site.baseurl}}/assets/images/jumbotron.jpg") no-repeat center center; 
+  background: url("{{site.baseurl}}/assets/images/bg-3.jpg") no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover; 
 	background-attachment: fixed; 
-	opacity: .6
  }
 
 .jumbotron{
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 50px;
-  background: rgba(25, 25, 12, 0.7);
-  color: white
+	margin-top: 20px;
+  background: rgba(25, 25, 12, .6);
+  color: white;
+  text-align: center;
 }
 
 .jumbotron h1{
-  	font-weight: 900;
-    font-size: 80px;
+  	font-weight: 700;
+    font-size: 100px;
     text-transform: uppercase; 
-    line-height: 1.2em; 
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px
 }
 
 .jumbotron h2{
 	 font-size: 50px;
+	 margin-top: 10px;
+}
+
+.jumbotron .button-row{
+	margin-top: 100px;
+}
+
+.jumbotron button{
+	font-size: 30px;
 }
 
 .site-section{
@@ -42,4 +52,13 @@ title: CSS stylesheet
 	color:black;
 	margin: 5px;
 	padding: 20px;
+}
+
+.page{
+	margin-top:-20px;
+}
+
+.page-content{
+  background-image: url("{{site.baseurl}}/assets/images/seamless_paper_texture.png");
+  background-repeat:repeat;
 }

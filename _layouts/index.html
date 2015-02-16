@@ -6,11 +6,38 @@ layout: default
 	<div id="content">
 	<div id="bg"></div>
 		<div class="jumbotron">
-			<div class="container">
+			<div class="container-fluid">
 				{{ content }}
+				<div class="row button-row">
+					<div class="col-md-4">
+						<a href="{{ site.baseurl }}/getstarted.html" role="button" >
+							<button class="btn btn-primary btn-lg center-block" >
+								<i class="fa fa-star-o"></i>
+								<span> Get Started</span>
+							</button>
+						</a>
+					</div>
+					<div class="col-md-4 col-centered">
+						<a href="{{ site.baseurl }}/tutorials.html" role="button">
+							<button class="btn btn-primary btn-lg center-block" >
+								<i class="fa fa-star-half-o"></i>
+								<span> Tutorials</span>
+							</button>
+						</a>
+					</div>
+					<div class="col-md-4 col-centered">
+						<a href="{{ site.baseurl }}/Projects.html" role="button">
+							<button class="btn btn-primary btn-lg center-block" >
+								<i class="fa fa-star"></i>
+								<span> Projects</span>
+							</button>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 
+<!--
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 ">
@@ -35,8 +62,8 @@ layout: default
 					</div>
 				</div>
 			</div>
-			
 		</div>
+		-->
 	</div>
 </div>
 

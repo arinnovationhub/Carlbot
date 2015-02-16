@@ -1,6 +1,6 @@
 {% assign categoryPosts = (site.categories[include.category] )  %}
-<div>
-	<ul class="nav nav-sidebar">
+<div class="">
+	<ul class="nav">
 		{% for post in categoryPosts %}
     	<li>
     		<a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
