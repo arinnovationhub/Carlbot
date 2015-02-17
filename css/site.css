@@ -57,8 +57,3 @@ title: CSS stylesheet
 .page{
 	margin-top:-20px;
 }
-
-.page-content{
-  background-image: url("{{site.baseurl}}/assets/images/seamless_paper_texture.png");
-  background-repeat:repeat;
-}
