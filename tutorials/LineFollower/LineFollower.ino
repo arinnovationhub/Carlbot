@@ -8,7 +8,7 @@
 Servo rightMotor;      //Craete a variable to hold the rightMotor object
 Servo leftMotor;       //Create a variable to hold the leftMotor object
 
-int LINE_SENSOR_THRESHOLD = 500; //create a constant to serve as a threshold. THIS MAY NEED TUNING
+int LINE_SENSOR_THRESHOLD = 950; //create a constant to serve as a threshold. THIS MAY NEED TUNING
 int leftSensor = A0;    //The left sensor will be hooked up to pin A0
 int centerSensor = A1;  //The center sensor will be hooked up to pin A1
 int rightSensor = A2;   //The right sensor will be hooked up to pin A2
@@ -23,8 +23,9 @@ int rightSensor = A2;   //The right sensor will be hooked up to pin A2
 *****************************************************************************************/
 
 void setup() {
-  rightMotor.attach(5);  //The right motor uses pin 5
-  leftMotor.attach(6);   //The left motor uses pin 6
+  rightMotor.attach(6);  //The right motor uses pin 5
+  leftMotor.attach(5);   //The left motor uses pin 6
+  Serial.begin(9600);
 }
 
 /**
@@ -32,7 +33,14 @@ void setup() {
 ** depending on which combination of line sensors currently see the line
 **/
 void loop() {
- 
+  int val1 = analogRead(A0);
+    int val2 = analogRead(A1);
+      int val3 = analogRead(A2);
+ Serial.print(val1);
+ Serial.print("   ");
+  Serial.print(val2);
+ Serial.print("   ");
+   Serial.println(val3);
   //If only left sensor sees the line, turn right quick!
   if(seesLine(leftSensor) && !seesLine(centerSensor) && !seesLine(rightSensor)){
    driveRight_sharp();
