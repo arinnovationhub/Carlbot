@@ -1,6 +1,11 @@
 ---
 title: CSS stylesheet
 ---
+
+a:hover {
+	text-decoration: none
+}
+
  #bg {
  	content:"";
   top: 0;

@@ -1,11 +1,10 @@
-{% assign categoryPosts = site.categories[include.category]%}
+{% assign sortedPages = (site.categories[include.category] | sort: 'order') %}
 <div class="">
 	<ol class="nav">
-		{% for post in (categoryPosts | sort: 'order') %}
+		{% for post in sortedPages %}
     	<li>
     		<a href="{{site.baseurl}}{{post.url}}">{{post.order}} -- {{ post.title }}</a>
     	</li>
 		{% endfor %}
 	</ul>
 </div>
-
