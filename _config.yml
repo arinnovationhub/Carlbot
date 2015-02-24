@@ -1,3 +1,13 @@
 title: 'CARLBots'
 subtitle: 'Robotics for everyone'
 baseurl: '/Carlbot'
+sections:
+  getstarted:
+    - id: 'components'
+      title: 'Components'
+    - id: 'software'
+      title: 'Software'
+    - id: 'wiring'
+      title: 'Wiriring your Project'      
+    - id: 'code'
+      title: 'Writing Code'

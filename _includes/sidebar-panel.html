@@ -1,10 +1,36 @@
-{% assign sortedPages = (site.categories[include.category] | sort: 'order') %}
-<div class="">
-	<ol class="nav">
-		{% for post in sortedPages %}
-    	<li>
-    		<a href="{{site.baseurl}}{{post.url}}">{{post.order}} -- {{ post.title }}</a>
-    	</li>
-		{% endfor %}
-	</ul>
+<div class="panel-group" id='accordion' role="tablist">
+
+{% for section in site.sections %}
+  {% if(section[0]) == include.category %}
+    {% for subsection in section[1] %}
+      {% assign sortedPages = (site.categories[subsection.id] | sort: 'order') %}
+      <div class='panel panel-default' >
+      
+
+        <div class='panel-heading' role='tab'>
+          <h4 class='panel-title'>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{subsection.id}}" >{{ subsection.title }}</a> 
+          </h4>
+        </div>
+
+        {% if forloop.index == 1 %}
+          {% assign inclass = 'in' %}
+        {% else %}
+          {% assign inclass = '' %}
+        {%endif %}
+
+        <div id="collapse{{subsection.id}}" class="panel-collapse collapse {{inclass}}" >
+          <div class="panel-body">
+            <ol>
+              {%for pg in sortedPages%}
+                <li><a href="{{site.baseurl}}{{pg.url}}">{{pg.title}}</a></li>
+              {%endfor%}
+            </ol>
+          </div>
+        </div>            
+
+      </div>
+    {% endfor %}
+  {%endif%}
+{% endfor %}
 </div>
