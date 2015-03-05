@@ -4,7 +4,7 @@ title: Sensors
 categories: ['components']
 tags: []
 published: True
-order: 2
+order: 3
 post_category: "getstarted"
 ---
 
