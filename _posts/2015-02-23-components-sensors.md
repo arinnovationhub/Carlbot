@@ -29,15 +29,24 @@ A potentiometer (sometimes called a variable resisitor) changes the resistence i
 
 This sounds technical and complex, but you are probably already familiar with potentiometers in your day-to-day life. For example, a knob that you turn to dim the lights in your living room makes use of a potentiometer. 
 
-## IR Proximety 
+#### Where to Buy
+* [Sparkfun](https://www.sparkfun.com/products/9939): A basic rotary potentiometer 
+* [Sparkfun](https://www.sparkfun.com/products/8680): A potentiometer that senses touch
 
-An Infrared  proximety sensor 
+## IR Proximety
+
+![IRProxemity]({{ site.baseurl }}/assets/images/started/started-irproxemity.jpg)
+
+Proxemity sensors let your robot whether there is an object in front of your robot. Some will also tell you the distance to that object. There are many types, but one of the easiest and least expensive to get started with is an Infrared (IR) proxemity sensor. It does this by sending out infrared light, then measuring the angle that the light is reflected back -- but don't worry, you won't need to understand this math to use it. The sensor will plug into the analog port of your adruino. It will then give you a value between 0 and 1024 dependening on how close or far away  your object is. Inclided with the proxemity sensor will be a formula to turn that value into inches or milimenters if you need to do that.
 
 #### Where to Buy
-* [Sparkfun](https://www.sparkfun.com/products/242)
+* [Sparkfun](https://www.sparkfun.com/products/242): A basic IR proxemity sensor
 
 ## Photoresistor
 ![Photoresistor]({{ site.baseurl }}/assets/images/started/started-photoresistor.jpg)
 
+A photo resistor measures the amount of ambient light that your robot can see. Like the proxemity sensor, it plugs into the analog port of your arduino and gives you a value between 0 and 1024 depending on how much light is visible. 
 
+#### Where to Buy
+* [Sparkfun](https://www.sparkfun.com/products/9088)
 

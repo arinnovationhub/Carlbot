@@ -3,7 +3,7 @@
 {% for section in site.sections %}
   {% if(section[0]) == include.category %}
     {% for subsection in section[1] %}
-      {% assign sortedPages = (site.categories[subsection.id] | sort: 'order') %}
+      {% assign sortedPages = (site.categories[subsection.id]) | sort: 'order' %}
       <div class='panel panel-default' >
       
 
