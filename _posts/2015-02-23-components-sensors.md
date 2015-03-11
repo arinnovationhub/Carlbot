@@ -22,6 +22,8 @@ A button is perhpas one of the most basic kinds of sensor, just telling you if a
 * [Sparkfun](https://www.sparkfun.com/products/9190): A very basic button
 * [Sparkfun](https://www.sparkfun.com/products/11310): A switch for your missle control panel
 
+- - -
+
 ## Potentiometer
 ![Potentiometer]({{ site.baseurl }}/assets/images/started/started-potentiometer.jpg)
 
@@ -33,6 +35,8 @@ This sounds technical and complex, but you are probably already familiar with po
 * [Sparkfun](https://www.sparkfun.com/products/9939): A basic rotary potentiometer 
 * [Sparkfun](https://www.sparkfun.com/products/8680): A potentiometer that senses touch
 
+- - -
+
 ## IR Proximety
 
 ![IRProxemity]({{ site.baseurl }}/assets/images/started/started-irproxemity.jpg)
@@ -41,6 +45,8 @@ Proxemity sensors let your robot whether there is an object in front of your rob
 
 #### Where to Buy
 * [Sparkfun](https://www.sparkfun.com/products/242): A basic IR proxemity sensor
+
+- - -
 
 ## Photoresistor
 ![Photoresistor]({{ site.baseurl }}/assets/images/started/started-photoresistor.jpg)
