@@ -43,7 +43,7 @@ void loop() {
    Serial.println(val3);
   //If only left sensor sees the line, turn right quick!
   if(seesLine(leftSensor) && !seesLine(centerSensor) && !seesLine(rightSensor)){
-   driveRight_sharp();
+   driveRight_slight();
  }
  
  //if the left and center snesor see the line, turn right slowly
@@ -68,7 +68,7 @@ void loop() {
  
  //if only the right sensor sees the line, left left quick!
  else if(!seesLine(leftSensor) && !seesLine(centerSensor) && seesLine(rightSensor)){
-   driveLeft_sharp();
+   driveLeft_slight();
  }
 }
 
