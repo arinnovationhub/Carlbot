@@ -11,3 +11,8 @@ sections:
       title: 'Wiriring your Project'      
     - id: 'code'
       title: 'Writing Code'
+  tutorials:
+    - id: 'beginners'
+      title: 'Beginners'
+    - id: 'advanced'
+      title: 'Advanced'
