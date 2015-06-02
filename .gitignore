@@ -1,6 +1,1 @@
-*.sw?
 _site
-_pages
-node_modules
-carlbot-site.sublime
-*Thumbs.db

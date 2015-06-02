@@ -1,8 +1,7 @@
 ---
-layout: index
-title: "Welcome to CARLBot!"
+layout: page
+title: Getting started with CARL
+tagline: Build your CARLBot
+description: Build your CARLBot 
 ---
 
-# {{site.title}}
-
-## {{site.subtitle}}
