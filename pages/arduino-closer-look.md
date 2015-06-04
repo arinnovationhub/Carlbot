@@ -43,3 +43,11 @@ Let's take another look at blink, now that we understand some basics
 2. **Loop** In lines 7-12 we have the loop block. The idea is that we are turning the LED on, waiting one second, turning the LED off, waiting one second, then circling back to the top of the loop block and doing it all over again. 
 
 One other thing to note is `delay()`. This line causes the arduino to pause. You tell it how long to pause by specificing a certain number of milliseconds in btween the parentheses. 1000 miliseconds = 1 second. 
+
+### Next steps:
+
+Now that you are an expert on the blink program, here are some more things you can explore
+
+1. Try unplugging your arduino and plugging it back in. Notice the arduino is still blinks? That's because the blink program is still loaded on the arduino, even if you turn it off.
+
+2. Try modifyng the blink program to blink at different rates (by changing the numbers you pass to delay). Upload the program and watch the results. 
