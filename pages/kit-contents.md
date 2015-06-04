@@ -30,6 +30,8 @@ There is alot more information about the arduino and how to use it on [getting s
 
 ### CARL Shield ###
 
+![CARL Shield]({{ site.baseurl }}/assets/images/started-shield.jpg)
+
 You can extend the capabilities of your arduino by plugging a sheild on the top of your arduino. We have designed the CARL shield to make it easy to get started with robots by having some convenient pins located on the top of the shield to plug in sensors and motors without having to build any circuits on a breadboard. This makes it easy to get to the fun stuff. But later, when you want to do more advanced projects with your arduino, you still have the capacity to do so by either removing the sheild or extending the shield yourself. 
  
 ### Breadboard ###
@@ -45,7 +47,39 @@ We'll be using breadboards in [getting started with your Arduino](/pages/getting
 ![Servos]({{ site.baseurl }}/assets/images/started-servo.jpg)
 
 Servos are devices made up of a dc motor, some gears, and a sensor that allows precise control over the motor. There are two kinds of servos:
+
 - *Positional rotation*: The most common type of servo, these only rotate 180 degrees, but allow for precise control of the position. You might use one to move a lever or open a claw.
+
 - *Continuous rotation*: These kind of servos rotate in either direction indefinitely. These are great for the motors on a robot to rotate the wheels, which is why these are the kind included in your kit.
 
 There will be alot more about servos when we get to [programming your robot](/pages/programming-robot.html). For more information about servos read [this article](http://www.sciencebuddies.org/science-fair-projects/project_ideas/Robotics_ServoMotors.shtml) 
+
+### LEDs ###
+
+![LEDs]({{ site.baseurl }}/assets/images/started-led.jpg)
+
+LEDs (Light Emitting Diodes) are a cheap way to add colorful lights to your project. A diode is an electical component that allows electricity to flow only one direction. You'll notice that your LED has two wires sticking from it (called leads). One of the leads is longer. This one is called the cathode and should hook up to the positive side of your circuit. The shorter lead is called the annode and should hook up to the negative (i.e. ground) side. 
+
+One thing to note about the LEDs included in your kit is that you can't just hook the LEDs to a battery (or directly to the arduino), or they will will burn out. To solve this problem, you need a resistor.
+
+### Resistors ###  
+
+![Resistors]({{ site.baseurl }}/assets/images/started-resistor.jpg)
+
+Resistors are electrical components that reduce the current flowing through your circuit and transfrom the voltage a higher voltage to a lower one. The level which a resistor brings down the voltage is called impedance and is measured in Ohms. You'll need these when you want to hook up LEDs to your circuit.  
+
+### Photoresitors ###
+
+![Photoresitors]({{ site.baseurl }}/assets/images/started-photoresistor.jpg)
+
+Photorisistors are a type of resistor whose level of impedance varies depending on how much light it can see. If the photoresistor sees lots of light, electricity can flow through the circuit easier. If you dim the lights, the impedance increases. 
+
+The really cool thing about photorisistors is that your arduino can measure the amount imedpence present in your circuit. This means that you can write a program to do different things based on how much light your photorisitors sees. In short, photoresistors are like simple eyes for your robot!
+
+### Potentiometer ###
+
+![Potentiometer]({{ site.baseurl }}/assets/images/started-potentiometer.jpg)
+
+Potentiometers are another type of variable resistor (like the photoresistors), except that instead of using light to determine the level of impedence, they use a knob. 
+
+Again, like the photoresistor, you can hook up potentiometers to your arduino, measure the effect they are having on your circuit and change your robot in some way based on how much the knob is turned. For example, you could change how fast your robot's wheels move with the knob. 
