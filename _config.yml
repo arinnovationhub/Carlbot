@@ -15,7 +15,7 @@ author :
   github : arlaunchpad
   twitter : kneumei
 
-production_url : http://arlauchpad.github.io/Carlbot/
+production_url : http://arinnovationhub.github.io/Carlbot/
 baseurl: '/Carlbot'
 
 # Tell Github to use the kramdown markdown interpreter
@@ -24,7 +24,6 @@ markdown: kramdown
 
 kramdown:
   use_coderay: true
-
   coderay:
     coderay_line_numbers: true
 
@@ -55,7 +54,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://arlauchpad.github.io/Carlbot/
+  BASE_PATH : http://arinnovationhub.github.io/Carlbot/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
