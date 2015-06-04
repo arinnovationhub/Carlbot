@@ -26,7 +26,7 @@ The Arduino (ar-DWEEN-oh) is a type of microcontroller -- which is just a fancy 
 
 Your arduino might look slightly different (different colors or markings). There are many different brands of arduinos, but they will all have the same basic shape and functionality. 
 
-There is alot more information about the arduino and how to use it on [getting started with your Arduino](/pages/getting-started-arduino.html)
+There is alot more information about the arduino and how to use it on [getting started with your Arduino](/pages/arduino-getting-started.html)
 
 ### CARL Shield ###
 
