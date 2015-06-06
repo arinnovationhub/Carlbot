@@ -31,3 +31,4 @@ Sketches for CARLBot day
 - [Blink with potentiometer](pages/carlday-potentiometer-blink.html)
 - [Using photoresitors](pages/carlday-photoresitors.html)
 - [Servo test](pages/carlday-servo-test.html)
+- [Drive and turn](pages/carlday-servo-drive-and-turn.html)
