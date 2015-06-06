@@ -15,7 +15,19 @@ This site describes how to get started with your CARLBot kit. But since CARLBot 
 
 - [Kit Contents](pages/kit-contents.html) - What's inside the kit?
 - [Getting started with your Arduino](pages/arduino-getting-started.html) - So you've got an arduino. Now what?
-- [Create a circut](pages/breadboard-getting-started.html) - You've mastered the arduino, now take it to the next level.
+- [Exploring the Arduino](pages/explore-arduino.html) - What else can you do with an Arduino?
 - [Assembling the CARLBot](pages/assembling-chasis.html) - Putting the pieces together. 
 - [Programming your Robot](pages/programming-robot.html) - Make it go!
 - [Next Steps](pages/next-steps)- Take over the world!
+
+---
+
+### CARLBot Day ###
+
+Sketches for CARLBot day 
+
+- [Blink](pages/carlday-blink.html)
+- [Potentiometer values](pages/carlday-potentiometer-values.html)
+- [Blink with potentiometer](pages/carlday-potentiometer-blink.html)
+- [Using photoresitors](pages/carlday-photoresitors.html)
+- [Servo test](pages/carlday-servo-test.html)
