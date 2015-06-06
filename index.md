@@ -32,3 +32,4 @@ Sketches for CARLBot day
 - [Using photoresitors](pages/carlday-photoresitors.html)
 - [Servo test](pages/carlday-servo-test.html)
 - [Drive and turn](pages/carlday-servo-drive-and-turn.html)
+- [Bugbot](pages/carlday-bugbot.html)
