@@ -33,3 +33,4 @@ Sketches for CARLBot day
 - [Servo test](pages/carlday-servo-test.html)
 - [Drive and turn](pages/carlday-servo-drive-and-turn.html)
 - [Bugbot](pages/carlday-bugbot.html)
+- [Bluetooth Bot](pages/carlday-bluetoothbot.html)
