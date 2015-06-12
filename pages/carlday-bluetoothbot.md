@@ -18,4 +18,4 @@ You'll need:
 <img src="../assets/images/carlday-bluetooth.png" width="400"/>
 
 ## Sketch 
-<script src="https://gist.github.com/kneumei/c9698074ee0c2a0edd4b"></script>
+<script src="https://gist.github.com/kneumei/c9698074ee0c2a0edd4b.js"></script>
